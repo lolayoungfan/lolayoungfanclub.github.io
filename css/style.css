@@ -47,3 +47,7 @@ html, body {
     border-radius: 10px;
     gap: 20px;
 }
+
+#auto {
+    display: none;
+}
