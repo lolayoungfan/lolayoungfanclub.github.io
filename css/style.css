@@ -51,3 +51,10 @@ html, body {
 #auto {
     display: none;
 }
+
+@media screen and (max-width: 800px) {
+    #header {
+        justify-content: center;
+        right: 0;
+    }
+}
