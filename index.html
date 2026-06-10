@@ -4,27 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <title>Lola Young Fan Club</title>
 </head>
 <body>
-    <div id="header">
-            <a href="/"><img src="images/lolayoungfanclublogo2.svg" alt="lola young fan club logo"></a>
-        </div>
-    <div id="main">
-        <div id="stream">
-            <div id="apple-music">
-                <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/song/from-down-here/6768357142"></iframe>
+    <audio id="bg-music" src="/audio/music.mp3" loop></audio>
+    <script src="/audio/audio.js" defer></script>
+    <main>
+        <nav class="global-nav">
+            <div class="logo-wrapper">
+                <img class="website-logo" width="658px" height="658px" src="/images/lolayoungfanclublogo2.svg">
             </div>
-            <div id="spotify">
-                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/7Hg7l5aOygIHuaNDVFp3ox?utm_source=generator" width="100%" height="175" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <div class="nav-buttons">
+                <ul>
+                    <li><a href="https://discord.gg/lolayoung/" target="_blank">DISCORD</a></li>
+                    <li><a href="https://LolaYoung.lnk.to/musicWE" target="_blank">LISTEN</a></li>
+                </ul>
             </div>
-        </div>
-        <div id="auto">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/2YA3OQwILck?si=vd5vhGrWuvOjrs3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-    </div>
+        </nav>
+        <section class="main-section">
+
+        </section>
+    </main>
+    <p id="disclaimer">Disclaimer: This is a fan-run website created for informational <br> and entertainment purposes only. It is entirely unofficial and unaffiliated with Lola Young or Island Records. <br>All copyrighted material, images, and trademarks utilized on this site are the property of <br>their respective owners and are used here under Fair Use guidelines for commentary and community building.</p>
+    <button id="audio-toggle" class="btns">Play Music</button>
 </body>
 </html>
